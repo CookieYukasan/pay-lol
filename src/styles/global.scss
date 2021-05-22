@@ -1,0 +1,13 @@
+*{
+  font-family: Montserrat, sans-serif;
+}
+
+.form-control:focus-within label{
+  position: absolute;
+  top: -0.75rem;
+  left: 1rem;
+  background-color: #0F0726;
+  padding: 0 0.25rem 0 0.25rem;
+  z-index: 2;
+  color: #DABD6D;
+}
